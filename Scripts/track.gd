@@ -14,10 +14,7 @@ func _ready() -> void:
 	$CanvasLayer/Lap.text = "Laps: %d/%d" % [player_laps, laps]
 	ai_car.set_physics_process(false)
 	player_car.set_physics_process(false)
-
-	var loaded_brain = load_brain("user://best_brain.json")
-	if loaded_brain == null:
-		loaded_brain = load_brain("res://models/default_brain.json")
+	var loaded_brain = load_brain("res://models/default_brain.json")
 
 	if loaded_brain == null:
 		push_error("Neither the player save nor the bundled AI brain could be loaded.")
