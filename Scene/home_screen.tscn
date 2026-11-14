@@ -1,0 +1,212 @@
+[gd_scene format=3 uid="uid://dl6vvr01dnkno"]
+
+[ext_resource type="Script" uid="uid://b1ufvoxwanwok" path="res://Scripts/home_screen.gd" id="1_6sch2"]
+[ext_resource type="FontFile" uid="uid://ysnex3y4urc0" path="res://Assets/Kenney Future.ttf" id="1_sxcps"]
+[ext_resource type="Texture2D" uid="uid://cpk2uubaqc22b" path="res://Assets/Red/Default/button_rectangle_depth_flat.png" id="2_s2t2t"]
+[ext_resource type="Texture2D" uid="uid://dr14dswofs50u" path="res://Assets/Red/Default/button_rectangle_flat.png" id="3_oegfc"]
+[ext_resource type="Texture2D" uid="uid://cg01oslir72v6" path="res://Assets/Red/Default/button_rectangle_depth_gradient.png" id="4_sxcps"]
+[ext_resource type="Texture2D" uid="uid://cn2216tvs7yyn" path="res://Assets/Green/Default/button_rectangle_depth_flat.png" id="5_oegfc"]
+[ext_resource type="Texture2D" uid="uid://dnx8y2n4gom7t" path="res://Assets/Green/Default/button_rectangle_flat.png" id="6_ct0cm"]
+[ext_resource type="Texture2D" uid="uid://22wsbqcdaiyp" path="res://Assets/Green/Default/button_rectangle_depth_gradient.png" id="6_u16ik"]
+[ext_resource type="Texture2D" uid="uid://d0ks4lctmgfy6" path="res://Assets/Cars/car_black_1.png" id="9_q156e"]
+[ext_resource type="Texture2D" uid="uid://78yfbfagt0w5" path="res://Assets/Grey/Default/button_rectangle_depth_flat.png" id="9_qj27d"]
+[ext_resource type="Texture2D" uid="uid://cfgjkbibp77b3" path="res://Assets/Cars/car_black_2.png" id="10_qj27d"]
+[ext_resource type="Texture2D" uid="uid://dhvipnc4ebj4x" path="res://Assets/Cars/car_black_3.png" id="11_tkvm1"]
+[ext_resource type="Texture2D" uid="uid://dxbixjit2hjfb" path="res://Assets/Cars/car_black_4.png" id="12_147v0"]
+[ext_resource type="Texture2D" uid="uid://clhnlueu4for3" path="res://Assets/Cars/car_black_5.png" id="13_jethv"]
+[ext_resource type="Texture2D" uid="uid://c1j7b7ruk1dqo" path="res://Assets/Cars/car_blue_1.png" id="14_dfo6e"]
+[ext_resource type="Texture2D" uid="uid://dcks76pkqyupk" path="res://Assets/Cars/car_blue_2.png" id="15_w558w"]
+[ext_resource type="Texture2D" uid="uid://jeaxhne5sbo8" path="res://Assets/Cars/car_blue_3.png" id="16_8y0i4"]
+[ext_resource type="Texture2D" uid="uid://bb8u84fkbo40m" path="res://Assets/Cars/car_blue_4.png" id="17_v4u2j"]
+[ext_resource type="Texture2D" uid="uid://cjdl8gs6x0tmv" path="res://Assets/Cars/car_blue_5.png" id="18_ov5dk"]
+[ext_resource type="Texture2D" uid="uid://tgnxa0fji3hp" path="res://Assets/Cars/car_green_1.png" id="19_diq5l"]
+[ext_resource type="Texture2D" uid="uid://dwneq33mibmhu" path="res://Assets/Cars/car_green_2.png" id="20_g8d4v"]
+[ext_resource type="Texture2D" uid="uid://dl8bxvfwy2d14" path="res://Assets/Cars/car_green_3.png" id="21_ngx0y"]
+[ext_resource type="Texture2D" uid="uid://cyojjuyvox6a1" path="res://Assets/Cars/car_green_4.png" id="22_ae3q4"]
+[ext_resource type="Texture2D" uid="uid://dumln54a848dk" path="res://Assets/Cars/car_green_5.png" id="23_y38dy"]
+[ext_resource type="Texture2D" uid="uid://b7mqiwn6oqm4u" path="res://Assets/Cars/car_red_1.png" id="24_ttci7"]
+[ext_resource type="Texture2D" uid="uid://cjdks5oaueefq" path="res://Assets/Cars/car_red_2.png" id="25_i4tyh"]
+[ext_resource type="Texture2D" uid="uid://chx7jdrl3fu4e" path="res://Assets/Cars/car_red_3.png" id="26_31oyh"]
+[ext_resource type="Texture2D" uid="uid://e35u8j5jjdob" path="res://Assets/Cars/car_red_4.png" id="27_x57hb"]
+[ext_resource type="Texture2D" uid="uid://brljogvsmc6v8" path="res://Assets/Cars/car_red_5.png" id="28_7fohl"]
+[ext_resource type="Texture2D" uid="uid://br76ovbsqrd72" path="res://Assets/Cars/car_yellow_1.png" id="29_aijdb"]
+[ext_resource type="Texture2D" uid="uid://c666hnc026j3o" path="res://Assets/Cars/car_yellow_2.png" id="30_0skas"]
+[ext_resource type="Texture2D" uid="uid://pahqey3hn6n1" path="res://Assets/Cars/car_yellow_3.png" id="31_cw0be"]
+[ext_resource type="Texture2D" uid="uid://bspuosx6yyywx" path="res://Assets/Cars/car_yellow_4.png" id="32_sro7x"]
+[ext_resource type="Texture2D" uid="uid://kfvcnp42hcpf" path="res://Assets/Cars/car_yellow_5.png" id="33_vway6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ibvod"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_q156e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_qj27d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_tkvm1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_147v0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_jethv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_dfo6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_w558w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_8y0i4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_v4u2j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ov5dk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_diq5l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_g8d4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ngx0y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ae3q4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_y38dy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ttci7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_i4tyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_31oyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_x57hb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_7fohl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_aijdb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_0skas")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_cw0be")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_sro7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_vway6")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="HomeScreen" type="Control" unique_id=1844275303]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6sch2")
+
+[node name="Label" type="Label" parent="." unique_id=1253352906]
+layout_mode = 0
+offset_left = 409.0
+offset_top = 153.0
+offset_right = 729.0
+offset_bottom = 207.0
+theme_override_fonts/font = ExtResource("1_sxcps")
+theme_override_font_sizes/font_size = 48
+text = "EvoRacer"
+
+[node name="Play" type="TextureButton" parent="." unique_id=1698266113]
+layout_mode = 0
+offset_left = 754.0
+offset_top = 398.0
+offset_right = 946.0
+offset_bottom = 462.0
+texture_normal = ExtResource("2_s2t2t")
+texture_pressed = ExtResource("3_oegfc")
+texture_hover = ExtResource("4_sxcps")
+
+[node name="Label" type="Label" parent="Play" unique_id=1530474126]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 190.0
+offset_bottom = 59.0
+theme_override_fonts/font = ExtResource("1_sxcps")
+theme_override_font_sizes/font_size = 16
+text = "Race My Model"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Train" type="TextureButton" parent="." unique_id=1215505322]
+layout_mode = 0
+offset_left = 255.0
+offset_top = 398.0
+offset_right = 447.0
+offset_bottom = 462.0
+texture_normal = ExtResource("5_oegfc")
+texture_pressed = ExtResource("6_ct0cm")
+texture_hover = ExtResource("6_u16ik")
+
+[node name="Label" type="Label" parent="Train" unique_id=1118662501]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 190.0
+offset_bottom = 59.0
+theme_override_fonts/font = ExtResource("1_sxcps")
+theme_override_font_sizes/font_size = 36
+text = "Train"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PlayCustomModel" type="TextureButton" parent="." unique_id=449615276]
+layout_mode = 0
+offset_left = 506.0
+offset_top = 398.0
+offset_right = 698.0
+offset_bottom = 462.0
+texture_normal = ExtResource("9_qj27d")
+texture_pressed = ExtResource("9_qj27d")
+texture_hover = ExtResource("9_qj27d")
+
+[node name="Label" type="Label" parent="PlayCustomModel" unique_id=898155851]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 190.0
+offset_bottom = 59.0
+theme_override_fonts/font = ExtResource("1_sxcps")
+theme_override_font_sizes/font_size = 16
+text = "Train First!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1625349809]
+position = Vector2(584, 306)
+sprite_frames = SubResource("SpriteFrames_ibvod")
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Train" to="." method="_on_train_pressed"]
+[connection signal="pressed" from="PlayCustomModel" to="." method="_on_play_custom_model_pressed"]
