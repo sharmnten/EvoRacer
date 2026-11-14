@@ -104,8 +104,8 @@ shape = SubResource("RectangleShape2D_oivnn")
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1300791013]
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=236791298]
-offset_right = 1152.0
-offset_bottom = 648.0
+offset_right = 1327.0
+offset_bottom = 651.0
 color = Color(0, 0, 0, 0.67058825)
 
 [node name="Countdown" type="Label" parent="CanvasLayer" unique_id=1495099627]

@@ -100,6 +100,9 @@ func end_generation()->void:
 
 
 func _on_exit_pressed() -> void:
+	Engine.time_scale = original_time_scale
+	Engine.physics_ticks_per_second = original_physics_ticks
+	Engine.max_physics_steps_per_frame = original_max_steps
 	get_tree().change_scene_to_file("res://Scene/home_screen.tscn")
 
 
